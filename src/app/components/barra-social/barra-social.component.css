@@ -1,0 +1,22 @@
+.social-bar {
+    /*position: sticky;
+    left: 0%;
+    right: 0.5%;
+    top: 40%;*/
+    z-index: 2000;
+}
+.icon {
+    /*margin: 2px;*/
+    color: darkcyan;
+    font-size: 1.5em;
+}
+.icon:hover {
+    font-size: 2em;
+}
+
+ul{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}

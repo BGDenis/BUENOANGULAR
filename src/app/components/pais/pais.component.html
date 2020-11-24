@@ -1,0 +1,21 @@
+<h5 class="card-title card-header"> {{title}}</h5>
+<div class="scroll">
+  <table class="table">
+    <thead class="">
+      <tr>
+        <th scope="col">Codigo</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Poblacion</th>
+        <th scope="col">Continente</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pais of listaPaises">
+        <td scope="row">{{pais.numericCode}}</td>
+        <td scope="row">{{pais.name}}</td>
+        <td>{{pais.population}}</td>
+        <td>{{pais.region}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

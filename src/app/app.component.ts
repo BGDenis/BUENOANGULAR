@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'myApp02';
+  title = 'BuenoAngular';
+  constructor() { }
+  ngOnInit(): void {
+  }
 }

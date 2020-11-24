@@ -1,0 +1,18 @@
+<div class="card mb-3 scroll" style="max-width: 600px;">
+  <div class="row no-gutters">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Empresa</h5>
+        <p class="card-text">Nombre: {{nombre}}</p>
+        <p class="card-text">Direccion: {{direccion}}</p>
+        <p class="card-text">telefono: {{telefono}}</p>
+        <p class="card-text">Email: {{email}}</p>
+      <app-barra-social></app-barra-social>
+      </div>
+      <button (click)='verdescripcion()' type="button" class="btn btn-outline-primary">
+        Descripcion
+      </button>
+      <p *ngIf="descripcionActiva" class="container card-text">{{descripcion}}</p>
+    </div>
+  </div>
+</div>

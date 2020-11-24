@@ -1,0 +1,13 @@
+<app-post class="container"></app-post>
+<div class="container">
+  <div class="card-header">
+    <button (click)='verpais()' type="button" class="btn btn-outline-primary">
+      Paises
+    </button>
+    <button (click)='verperu()' type="button" class="btn btn-outline-primary">
+      Peru
+    </button>
+  </div>
+  <app-pais *ngIf="paisActivo" class="container"></app-pais>
+  <app-peru *ngIf="peruActivo" class="container"></app-peru>
+</div>
